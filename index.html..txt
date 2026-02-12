@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>А-Пласт | Прием пластика Астана</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="А-Пласт – приём пластиковых отходов и вторсырья в Астане. Закупаем трубы, канистры, ПЭТ, гранулы, дроблёнку и многое другое.">
+<link rel="icon" href="A-PLAST_logo_4_favicon.png" type="image/png">
+
+<style>
+/* CSS здесь как в нашем финальном сайте: header, grid, cards, кнопки, fade-in */
+body{margin:0;font-family:'Segoe UI',Arial,sans-serif;background:#f5f7fa;color:#1f2937;}
+header{display:flex;flex-direction:column;align-items:center;text-align:center;padding:50px 20px;background:#0f172a;color:white;}
+header img{width:120px;max-width:30%;margin-bottom:20px;}
+header h1{font-size:40px;margin:0;}
+header p{font-size:18px;max-width:700px;margin:10px auto;}
+.header-city{margin-top:10px;font-size:18px;color:#38bdf8;}
+.header-hours{margin-top:5px;font-size:16px;color:#94a3b8;}
+.btn{display:inline-block;padding:14px 28px;border-radius:6px;text-decoration:none;font-weight:600;margin:10px;transition:transform 0.2s,box-shadow 0.2s;}
+.btn:hover{transform:translateY(-3px);box-shadow:0 5px 15px rgba(0,0,0,0.2);}
+.btn-primary{background:#2563eb;color:white;}
+.btn-primary:hover{background:#1d4ed8;}
+.btn-whatsapp{background:#25D366;color:white;}
+.btn-whatsapp:hover{background:#1ebe5d;}
+section{padding:70px 20px;max-width:1100px;margin:auto;}
+h2{text-align:center;font-size:30px;margin-bottom:40px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+.card{background:white;padding:25px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.05);transition:transform 0.3s,box-shadow 0.3s;}
+.card:hover{transform:translateY(-8px);box-shadow:0 8px 20px rgba(0,0,0,0.15);}
+.fade-in{opacity:0;transform:translateY(30px);animation:fadeInUp 1s forwards;}
+@keyframes fadeInUp{to{opacity:1;transform:translateY(0);}}
+.delay-1{animation-delay:0.2s;}.delay-2{animation-delay:0.4s;}.delay-3{animation-delay:0.6s;}.delay-4{animation-delay:0.8s;}
+.delay-5{animation-delay:1s;}.delay-6{animation-delay:1.2s;}
+img{width:100%;border-radius:10px;}
+@media(max-width:600px){header h1{font-size:32px;}h2{font-size:24px;}}
+</style>
+</head>
+<body>
+<header>
+<img src="A-PLAST_logo_4.png" alt="А-Пласт">
+<h1>А-Пласт</h1>
+<p>Закупаем пластиковые отходы и вторсырье крупными объемами. Долгосрочное сотрудничество с производствами и поставщиками.</p>
+<div class="header-city">Город: Астана</div>
+<div class="header-hours">🕒 Часы работы: ежедневно с 09:00 до 20:00</div>
+<div style="margin-top:20px;">
+<a href="#contact" class="btn btn-primary">Связаться</a>
+<a href="https://wa.me/77004235005" class="btn btn-whatsapp" target="_blank">Написать в WhatsApp</a>
+</div>
+</header>
+
+<section class="fade-in delay-1">
+<h2>Что принимаем</h2>
+<div class="grid">
+<div class="card">Трубы</div><div class="card">Канистры</div><div class="card">ПЭТ преформы</div><div class="card">Крышки</div>
+<div class="card">ППУ оболочка</div><div class="card">Гранулы</div><div class="card">Дробленка</div><div class="card">19 литровые бутыли</div>
+<div class="card">Обрезки листов</div><div class="card">Производственные отходы</div><div class="card">Литники</div>
+</div>
+</section>
+
+<!-- Галерея фото и остальные блоки можно добавить по тому же коду, который я давал выше -->
+
+<section id="contact" class="fade-in delay-6">
+<h2>Контакты</h2>
+<div class="contact-box">
+<div class="contact-item">🕒 Часы работы: ежедневно с 09:00 до 20:00</div>
+<div class="contact-item">📞 Евгений: +7 700 423 5005</div>
+<div class="contact-item">📞 Алексей: +7 707 909 0230</div>
+<div class="contact-item">💰 По вопросам цен: +7 700 423 5005 (Евгений)</div>
+<div class="contact-item">📍 Адреса:<br>Ондирис 37<br>Акбидай 8/4<br>Ондирис 22/1</div>
+<br>
+<a href="https://wa.me/77004235005" class="btn btn-whatsapp" target="_blank">Написать Евгению в WhatsApp</a>
+</div>
+</section>
+
+<footer>© 2026 А-Пласт | Астана</footer>
+</body>
+</html>
